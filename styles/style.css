@@ -1,0 +1,42 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	width:60%;
+	align-items: center;
+}
+
+div.wrapper{
+	display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+}
+
+div.uno{
+
+	border-radius: 10px;
+	padding: 0.01em 16px;
+    grid-row: 1;
+}
+
+div.dos{
+
+	border-radius: 10px;
+	padding: 0.01em 16px;
+	grid-column: 2 / 3;
+          grid-row: 1;
+          text-align: center;
+          
+}
+
+div.tres{
+
+	border-radius: 10px;
+	padding: 0.01em 16px;
+	grid-column: 3 / 3;
+    grid-row: 1;
+}
