@@ -4,4 +4,4 @@ Deben basarse en el siguiente enlace de Mockup para crear el Frontend del ejerci
 https://app.moqups.com/0za7IU83N3/view/page/a4e224244
 
 
-El sitio se encuentra publicado en el enlace:
+El sitio se encuentra publicado en el enlace:https://g4m804.github.io/primerparcial20212/
