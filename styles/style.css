@@ -120,3 +120,22 @@ input {
 }
 .center{text-align: center;}
 .mcenter{margin: 0 auto;}
+.Numeral {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0 auto;
+}
+.Numeral a {
+  width: 4rem;
+  height: 4rem;
+  color: #ffff;
+  margin: 0 auto;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  background-color: #006ce5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
