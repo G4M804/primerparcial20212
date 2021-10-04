@@ -9,21 +9,21 @@ img{
 	align-items: center;
 }
 
-div.wrapper{
+.wrapper{
 	display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
       grid-auto-rows: minmax(100px, auto);
 }
 
-div.uno{
+.uno{
 
 	border-radius: 10px;
 	padding: 0.01em 16px;
     grid-row: 1;
 }
 
-div.dos{
+.dos{
 
 	border-radius: 10px;
 	padding: 0.01em 16px;
@@ -33,10 +33,109 @@ div.dos{
           
 }
 
-div.tres{
+.tres{
 
 	border-radius: 10px;
 	padding: 0.01em 16px;
 	grid-column: 3 / 3;
     grid-row: 1;
+}
+.MenuInfo { 
+  margin-bottom: 25px;
+}
+.btn{
+  margin: 0 auto;
+  background-color: #006ce5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 14px;
+  border-top-left-radius: 14px;
+  width: 150px;
+  height: 30px;
+}
+
+.MenuInfo {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+}
+.MenuBtn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.MenuLogo {
+  width: 200px;
+}
+
+.MenuBotones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.MenuBotones a {
+  margin-bottom: 25px;
+}
+.btnGris {
+  background-color: gray;
+}
+.btnmenu1{
+  width: 12rem;
+  height: 20px;
+  color: #ffff;
+  margin: 0 auto;
+  border-bottom-left-radius: 14px;
+  background-color: #006ce5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.btnmenu2{
+  width: 12rem;
+  height: 20px;
+  color: #ffff;
+  margin: 0 auto;
+  border-bottom-right-radius: 14px;
+  background-color: #006ce5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.btnultimo{
+  background-color: gray;
+}
+.MenuText {
+  text-align: left;
+}
+input {
+  height: 35px;
+  width: 220px;
+}
+.center{text-align: center;}
+.mcenter{margin: 0 auto;}
+.Numeral {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0 auto;
+}
+.Numeral a {
+  width: 4rem;
+  height: 4rem;
+  color: #ffff;
+  margin: 0 auto;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  background-color: #006ce5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
